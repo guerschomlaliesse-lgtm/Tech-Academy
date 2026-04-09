@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="sticky-top bg-white shadow-sm">
+    <nav class="navbar navbar-expand-lg bg-body-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">Tech Academy</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Formations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="apropos.html">A propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search"/>
+            <button class="btn btn-outline-success" type="submit">Rechercher</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+ <main>
+   <!-- Heroes -->
+   <div class="heroes px-0 my-0 mx-0 w-100">
+     <div class="d-flex flex-column justify-content-center align-items-center mx-0 my-0 text-center bg-image text-white">
+       <h1 class="display-5 fw-bold">Bienvenue chez TECH ACADEMY</h1>
+       <div class="col-lg-6 mx-auto">
+         <p class="lead mb-4">Nous sommes un centre de formation dédié à l’excellence numérique. Notre mission est d'accompagner les passionnés et les professionnels vers la maîtrise des métiers les plus demandés du marché : le SEO, le développement Web et le Mobile. Ici, nous transformons votre curiosité en expertise technique.</p>
+         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+           <button type="button" class="btn btn-primary btn-lg px-4 gap-3">S'inscrire</button>
+         </div>
+       </div>
+     </div>
+   </div>
+     <!-- Petit apropos -->
+    <div class="container col-xxl-8 px-4 my-3">
+       <div class="row flex-lg-row-reverse align-items-center g-5 py-3">
+         <div class="col-10 col-sm-8 col-lg-6 rounded-5 overflow-hidden px-0" style="height: 300px; width: 400px;">
+           <img src="https://i.pinimg.com/736x/ed/c7/9f/edc79f01040c1b22ac4f6947b5622b29.jpg" class="img-fluid" alt="Bootstrap Themes">
+         </div>
+         <div class="col-lg-6">
+           <h1 class="display-5 fw-bold lh-1 mb-3">TECH ACADEMY</h1>
+           <p class="lead">De l'apprentissage à l'expertise.
+            <br>Nous formons la prochaine génération de talents du numérique. Que vous vouliez dominer Google, créer des sites web performants ou lancer votre application mobile, nous vous donnons les clés pour réussir.</p>
+         </div>
+       </div>
+    </div>
+
+     <!-- Formations -->
+     <div class="container formation text-center" id="formation">
+      <h3 class="py-3">Formations</h3>
+
+      <!-- Cartes -->
+      <div class="row gap-3">
+        <div class="card col col-sx-12 shadow" style="width: 18rem;">
+          <img src="ASSET/IMAGE/image1.jpg" class="card-img-fluid" alt="" style="height: 300px;">
+          <div class="card-body">
+            <h5 class="card-title">SEO</h5>
+            <p class="card-text">Apprenez à propulser n'importe quel site en première page de Google. De l'optimisation technique à la stratégie de contenu, maîtrisez les algorithmes pour générer un trafic organique massif et durable sans dépenser un centime en publicité</p>
+            <a href="#" class="btn btn-primary rounded-3">MAINTENANT</a>
+          </div>
+        </div>
+        <div class="card col col-sx-12 shadow" style="width: 18rem;">
+          <img src="ASSET/IMAGE/image2.jpg" class="card-img-top" alt="" class="card-img-fluid" alt="" style="height: 300px;">
+          <div class="card-body">
+            <h5 class="card-title">DEV MOBILE</h5>
+            <p class="card-text">"Donnez vie à vos idées d'applications. Apprenez à développer des solutions performantes pour iOS et Android. Maîtrisez l'expérience utilisateur mobile (UX) et créez des apps natives ou hybrides prêtes à être publiées sur les stores. adapte a tous </p>
+            <a href="#" class="btn btn-primary rounded-3">MAINTENANT</a>
+          </div>
+        </div>
+        <div class="card col col-sx-12 shadow" style="width: 18rem;">
+          <img src="ASSET/IMAGE/image3.jpg" class="card-img-top" alt="" class="card-img-fluid" alt="" style="height: 300px;">
+          <div class="card-body">
+            <h5 class="card-title">DEV WEB</h5>
+            <p class="card-text">Devenez l'architecte du web moderne. Maîtrisez les langages fondamentaux (HTML, CSS, JavaScript) et les frameworks les plus demandés pour concevoir des sites vitrines et des applications web complexes, fluides et adaptés à tous </p>
+            <a href="#" class="btn btn-primary rounded-3">MAINTENANT</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</main>
+      <!-- Footer -->
+      <footer class="Footer bg-dark text-white pt-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <!-- Colonne 1 : Infos -->
+                <div class="col-md-4 mb-3">
+                    <h5 class="text-Primary display-5">A PROPOS</h5>
+                    <p>Notre centre propose des formations professionnelles adaptées aux besoins du marché.</p>
+                </div>
+   
+                <!-- Colonne 2 : Liens -->
+                <div class="col-md-4 mb-3">
+                    <h5 class="display-5">LIENS UTILES</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-decoration-none">Accueil</a></li>
+                        <li><a href="#" class=" text-decoration-none">Formations</a></li>
+                        <li><a href="#" class="text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+   
+                <!-- Colonne 3 : Contact -->
+                <div class="col-md-4 mb-3">
+                    <h5 class="display-5">CONTACT</h5>
+                    <p>Email : techacademy@gmail.com</p>
+                    <p>Tél : +242 064077846</p>
+                </div>
+            </div>
+   
+            <hr class="bg-light">
+   
+            <!-- Bas du footer -->
+            <div class="text-center pb-3">
+                &copy; 2026 Centre de Formation. Tous droits réservés.
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
